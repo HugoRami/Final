@@ -1,0 +1,103 @@
+body {
+  position: relative;
+}
+
+h1{
+  color: #ec1809;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 25px;
+}
+
+
+a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.conectado{
+  color: #447a2b;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-width: 4px ; 
+  padding: 3px;
+  /*border-style: solid;
+  border-color: black ;
+  width: 300px; /* pixeles es un unidad de medida absoluta siempre vale lo mismo*/
+  height: 50px ;
+}
+.cerrar{
+  color: #39393db6;
+}
+
+.desconectado{
+  color: #447a2b;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-width: 4px ; 
+  padding-top: 3px;
+  /*border-style: solid;
+  border-color: black ;
+  width: 300px; /* pixeles es un unidad de medida absoluta siempre vale lo mismo*/
+  height: 30px ;
+}
+
+
+
+body{
+}
+
+
+.contenedor {
+}
+
+* {
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+}
+
+
+
+.logout_container {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* nav container */
+.navbar {
+  padding: 0;
+}
+
+/* Logo */
+.navbar-brand {
+  padding: 5´x; 
+}
+
+.nav-item {
+  width: 30%;
+}
+
+.navbar-nav {
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+/* Estilo adicional para los botones del menú */
+.navbar-nav .nav-item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Opcional: Ajusta el espacio entre los botones */
+.navbar-nav .nav-item:not(:last-child) {
+  margin-right: 10px; /* Puedes ajustar el valor según tu preferencia */
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-size: 20px;
+}
